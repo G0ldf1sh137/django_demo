@@ -2,6 +2,13 @@ body {
   background: white url("images/background.png") no-repeat;
 }
 
-li a {
+li, 
+label {
+  color: blue;
+}
+
+a,
+a:visited,
+h1 {
   color: green;
 }

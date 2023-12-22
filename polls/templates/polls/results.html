@@ -1,7 +1,9 @@
 {% extends "base/base.html" %}
-
 {% load static %}
-<link rel="stylesheet" href="{% static 'polls/style.css' %}">
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+{% endblock %}
 
 {% block content %}
     <h1>{{ question.question_text }}</h1>
